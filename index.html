@@ -1,0 +1,44 @@
+<!--
+load two pictures
+Ask user to vote on the cutest kitten
+
+after vote:
+highlight winning kitten
+show votes, increase +1
+Request user vote again
+grid-based layout (960 px)
+ -->
+
+<html>
+<head>
+  <!-- $(document).ready(function()) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="Vote_JS.js"></script>
+  <link href="CSSReset.css" type="text/css" rel="stylesheet"/>
+  <link href="960_12_col.css" type="text/css" rel="stylesheet"/>
+  <link href="vote_CSS.css" type="text/css" rel="stylesheet"/>
+  <link href='http://fonts.googleapis.com/css?family=Lobster|Indie+Flower' rel='stylesheet' type='text/css'>
+  <title>Pick the cutest fuzzy!!</title>
+</head>
+<body class="container_12">
+  <header>
+    <p class="Welcome">welcome text goes here</p>
+    <p class="Sponsor"><a href="CutestKittenPageant.com">Sponsored by a completely made-up Company!</a>
+
+  </header>
+
+  <section class="grid_4" class="border" class="Image1">
+    <img src="images/01.jpg" alt=""/>
+    <p>img 1</p>
+  </section>
+  <section class="grid_4a" class="border">
+    <p>voting info</p>
+    <p>jQuery to change url of img to random cat picture</p>
+  </section>
+  <section class="grid_4" class="border" class="Image2">
+    <img src="images/02.jpg" alt=""/>
+    <p>img 2</p>
+  </section>
+
+</body>
+</html>

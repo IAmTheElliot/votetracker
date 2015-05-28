@@ -1,0 +1,65 @@
+/*
+#E8FF34
+#30E852
+#41F0FF
+#303EE8
+#ECA6FF
+
+'Lobster', curisve;
+'Indie Flower',cursive;
+*/
+
+header {
+  background-image: url(kitten-banner.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: blueviolet;
+  /*background-color: #ECA6FF;*/
+  text-align: center;
+  height: 330px;
+  padding: 10px;
+  /*margin-bottom: 30px;*/
+  font-family: 'Lobster', cursive;
+}
+
+.Welcome {
+  font-size: 72px;
+  position: relative;
+  top: 248px;
+  color: #303EE8;
+}
+
+.Sponsor {
+  font-size: 16px;
+  color: #E8FF34;
+  text-align: left;
+  position: relative;
+  top: 250px;
+  left: 45px;
+}
+
+body {
+  background-color: #41F0FF;
+}
+
+.grid_4, .grid_4a{
+  width: 276px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: 'Indie Flower', cursive;
+  border: 2px solid black;
+  /*border: 2px solid #30E852;*/
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+  align-content: center;
+}
+
+.grid_4a {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.Image1 {
+  background-color: #30E852
+}
